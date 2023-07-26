@@ -7,11 +7,11 @@ var productSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    quantity: {
+    Quantity: {
         type: Number,
         required: true,
     },
-    price: {
+    Price: {
         type: Number,
         required: true,
     },
